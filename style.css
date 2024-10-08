@@ -140,18 +140,23 @@ body{
 
 #s1-and-s2 #s3{
     width: 75%;
-    padding: 30px;
+    padding: 10px;
 }
 
 #s3 h2{
     font-size: 12px;
-    margin-top: 12px;
+    margin-top: 15px;
     font-weight: 700;
 }
 #s3 .project{
     font-size: 12px;
 }
-#s3 .project ul{
+#s3 ul{
     padding-left: 12px;
     font-size: 12px;
+}
+
+#s3 #e-commerce-project{
+    margin: 20px;
+    font-weight: 700;
 }
