@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 250, 250);
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: "Open Sans", serif;
+}
+
+hr{
+    width: 90%;
+    height: 0.1px; 
+    background-color: #000; 
+    margin: 20px; 
+    margin-left: 50%;
+    transform: translateX(-50%); 
+    position: relative; 
+}
+
+hr::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px; /* نفس سمك الخط */
+    height: 100%; /* نفس ارتفاع الخط */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* تدرج من اللون إلى الشفافية */
+}
+
+
+#s1{
+    display: flex;
+    height: auto;
+}
+
+#imgDIV{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgDIV img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.329);
+}
+#s1 #about{
+    width: 70%;
+    height: 100%;
+    display: block;
+}
+#s1 #about #name-and-speciality{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+#s1 #about #name-and-speciality #name{
+    margin: 0;
+    padding: 0;
+}
+#s1 #about #discription{
+    height: auto;
+    display: block;
+}
+#s1 #about #discription p{
+    font-size: 12px;
+    font-weight: 300;
+}
