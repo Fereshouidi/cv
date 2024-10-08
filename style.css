@@ -51,7 +51,7 @@ body{
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    padding: 35px;
+    padding: 32px;
 }
 #imgDIV img{
     width: 130px;
@@ -63,7 +63,7 @@ body{
 #s1 #about{
     width: 70%;
     height: 100%;
-    padding: 12px;
+    padding: 10px;
     display: block;
 }
 #s1 #about #name-and-speciality{
@@ -71,7 +71,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 12px;
+    padding: 10px;
 }
 #s1 #about #name-and-speciality #name{
     margin: 0;
