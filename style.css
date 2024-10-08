@@ -12,7 +12,7 @@ body{
     font-family: "Open Sans", serif;
 }
 
-hr{
+#hr{
     width: 90%;
     height: 0.1px; 
     background-color: #000; 
@@ -22,20 +22,28 @@ hr{
     position: relative; 
 }
 
-hr::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 10px; /* نفس سمك الخط */
-    height: 100%; /* نفس ارتفاع الخط */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* تدرج من اللون إلى الشفافية */
+#vr{
+    /* height: 90%;
+    width: 0.1px;  */
+    display: inline-block;
 }
+
+
 
 
 #s1{
     display: flex;
     height: auto;
+}
+
+#s2 h2{
+    letter-spacing: 7px;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+#s2 ul{
+    font-size: 12px;
 }
 
 #imgDIV{
@@ -75,4 +83,67 @@ hr::before {
 #s1 #about #discription p{
     font-size: 12px;
     font-weight: 300;
+}
+
+
+#s1-and-s2{
+    display: flex;
+
+}
+#s1-and-s2 #s2{
+    width: 35%;
+    padding-left: 10px;
+}
+#s1-and-s2 #s2 ul{
+    margin-left: 10%;
+}
+
+
+#social-media{
+    font-size: 15px;
+    padding: 10px;
+}
+#social-media div{
+    margin: 7px 0;
+}
+#social-media a{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+#social-media i{
+    font-size: 15px;
+}
+
+#social-media *{
+    font-size: 10px;
+}
+
+/* #technical-skills-div {
+}
+
+#technical-skills-div h2{
+    letter-spacing: 7px;
+    font-size: 15px;
+} */
+
+
+
+
+#s1-and-s2 #s3{
+    width: 65%;
+    padding: 30px;
+}
+
+#s3 h2{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+#s3 .project{
+    font-size: 12px;
+}
+#s3 .project ul{
+    padding-left: 15px;
+    font-size: 12px;
 }
