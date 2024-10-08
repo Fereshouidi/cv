@@ -51,7 +51,7 @@ body{
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    padding: 25px;
+    padding: 35px;
 }
 #imgDIV img{
     width: 160px;
@@ -62,7 +62,8 @@ body{
 }
 #s1 #about{
     width: 70%;
-    height: 160%;
+    height: 100%;
+    padding: 20px;
     display: block;
 }
 #s1 #about #name-and-speciality{
@@ -96,15 +97,19 @@ body{
 }
 #s1-and-s2 #s2 ul{
     margin-left: 16%;
+    margin: 30px;
+}
+#s1-and-s2 #s2 li{
+    margin: 20px;
 }
 
 
 #social-media{
     font-size: 20px;
-    padding: 16px;
+    padding: 30px;
 }
 #social-media div{
-    margin: 7px 0;
+    margin: 15px 0;
 }
 #social-media a{
     margin: 16px;
@@ -137,7 +142,7 @@ body{
 
 #s3 h2{
     font-size: 20px;
-    margin-top: 16px;
+    margin-top: 20px;
     font-weight: 700;
 }
 #s3 .project{
