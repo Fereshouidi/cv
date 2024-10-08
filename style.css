@@ -42,7 +42,8 @@ hr::before {
     width: 30%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    padding: 25px;
 }
 #imgDIV img{
     width: 100px;
