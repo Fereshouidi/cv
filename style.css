@@ -1,8 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
+    width: 160%;
+    height: 160%;
     background-color: rgb(250, 250, 250);
 }
 
@@ -38,31 +38,31 @@ body{
 
 #s2 h2{
     letter-spacing: 7px;
-    font-size: 12px;
-    margin-top: 10px;
+    font-size: 20px;
+    margin-top: 16px;
     font-weight: 700;
 }
 #s2 ul{
-    font-size: 12px;
+    font-size: 20px;
 }
 
 #imgDIV{
-    width: 30%;
+    width: 25%;
     display: flex;
     justify-content: center;
     /* align-items: center; */
     padding: 25px;
 }
 #imgDIV img{
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
     border: 2px solid white;
     border-radius: 50%;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.329);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.329);
 }
 #s1 #about{
     width: 70%;
-    height: 100%;
+    height: 160%;
     display: block;
 }
 #s1 #about #name-and-speciality{
@@ -81,7 +81,7 @@ body{
     display: block;
 }
 #s1 #about #discription p{
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 300;
 }
 
@@ -91,32 +91,32 @@ body{
 
 }
 #s1-and-s2 #s2{
-    width: 35%;
-    padding-left: 10px;
+    width: 30%;
+    padding-left: 0px;
 }
 #s1-and-s2 #s2 ul{
-    margin-left: 10%;
+    margin-left: 16%;
 }
 
 
 #social-media{
-    font-size: 15px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 16px;
 }
 #social-media div{
     margin: 7px 0;
 }
 #social-media a{
-    margin: 10px;
+    margin: 16px;
     color: black;
     text-decoration: none;
 }
 #social-media i{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #social-media *{
-    font-size: 10px;
+    font-size: 16px;
 }
 
 /* #technical-skills-div {
@@ -124,26 +124,26 @@ body{
 
 #technical-skills-div h2{
     letter-spacing: 7px;
-    font-size: 15px;
+    font-size: 20px;
 } */
 
 
 
 
 #s1-and-s2 #s3{
-    width: 65%;
+    width: 75%;
     padding: 30px;
 }
 
 #s3 h2{
-    font-size: 15px;
-    margin-top: 10px;
+    font-size: 20px;
+    margin-top: 16px;
     font-weight: 700;
 }
 #s3 .project{
-    font-size: 12px;
+    font-size: 20px;
 }
 #s3 .project ul{
-    padding-left: 15px;
-    font-size: 12px;
+    padding-left: 20px;
+    font-size: 20px;
 }
